@@ -2,8 +2,10 @@ import styled from "styled-components";
 
 export const HeaderMain = styled.div`
 display: flex;
+flex-direction: column;
+justify-content: space-between;
 /* border: green 2px solid; */
-height: 100vh;
+height: 20vh;
 img{
     width: 100%;
 }
@@ -38,6 +40,7 @@ li{
 li:hover{
     color: #795c34;
     border-bottom: #795c34 2px solid;
+    letter-spacing: 4px;
 }
 img{
     display: flex;
@@ -47,21 +50,24 @@ img{
 `;
 
 export const Logo = styled.div`
+/* border: red 1px solid; */
 padding-left: 1.2rem;
+padding-bottom:1.1rem;
+width: 10vw;
 
 img{
-    width: 7vw;
+    width: 6vw;
 }
 `;
 
 export const Input = styled.div`
 display: flex;
-width: 20vw;
+width: 24vw;
 align-items: center;
 justify-content: space-evenly;
 /* border: purple 1px solid; */
 input{
-    width: 17vw;
+    width: 20vw;
     height: 5vh;
     border-radius: 15px;
     border: purple 1px solid;
