@@ -112,5 +112,6 @@ position: absolute;
 padding-left: 1rem;
 img{
     width: 2vw;
+    cursor: pointer;
 }
 `;
